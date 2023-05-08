@@ -7,10 +7,12 @@
   "engines": {
     "node": ">=16.x"
   },
+  "bin": {
+    "md-links": "./src/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cli": "node ./src/cli.js ./arquivo/texto.md",
-    "cli:valida": "node ./src/cli.js ./arquivo/texto.md --valida"
+    "test": "jest",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,18 @@
     "commit": "ffa75c8b2bede153844195479abeff01f3e34227"
   },
   "dependencies": {
-    "chalk": "^5.2.0",
-    "eslint": "^8.39.0"
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "jes": "^0.6.1",
+    "jest": "^29.5.0"
   }
 }
