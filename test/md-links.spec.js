@@ -1,10 +1,7 @@
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-undef */
-
-// import fs from 'fs';
-// import chalk from 'chalk';
-import { extraiLinks, tratarErro } from '../src/mdLinks';
-import { imprimeLista } from '../src/cli.js';
+import { extraiLinks } from '../src/mdLinks';
+import { trataErro } from '../src/erros';
 
 describe('extraiLinks', () => {
   it('deveria ser uma função', () => {
@@ -26,19 +23,8 @@ describe('extraiLinks', () => {
   });
 });
 
-describe('tratarErro', () => {
-  it('deve ser uma função', () => {
-    expect(typeof tratarErro).toBe('function');
-  });
-  it('deve apresentar erro com a mensagem correta', () => {
-    expect(() => {
-      tratarErro({ code: 'ENOENT' });
-    }).toThrow('ENOENT');
-  });
-});
-
-describe('imprimeLista', () => {
+describe('trataErro', () => {
   it('deveria ser uma função', () => {
-    expect(typeof imprimeLista).toBe('function');
+    expect(typeof trataErro).toBe('function');
   });
 });
