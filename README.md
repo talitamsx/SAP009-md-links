@@ -31,17 +31,21 @@ de implementação de todas as partes do projeto.
 
 Comando :
 md-links ./"rota-do.arquivo"/"arquivo.md" (absoluta ou relativa)
+
 ![md-links](https://github.com/talitamsx/SAP009-md-links/assets/107422798/9f17114a-491a-409f-a420-f45b1bf4d1d2)
 
 
 Comando: 
 md-links ./"rota-do.arquivo"/"arquivo.md" --validate
+
 ![md-links-validate](https://github.com/talitamsx/SAP009-md-links/assets/107422798/a2ad6b35-74c6-4ff6-b068-d28fd59d7f94)
 
 Comando:
 md-links ./"rota-do.arquivo"/"arquivo.md" --stats
+
 ![md-links-stats](https://github.com/talitamsx/SAP009-md-links/assets/107422798/82406918-8440-4ffe-a5a0-5ed38bba4804)
 
 Comando:
 md-links ./"rota-do.arquivo"/"arquivo.md" --stats --validate
+
 ![md-links-stats-validate](https://github.com/talitamsx/SAP009-md-links/assets/107422798/dc15008e-d327-455f-9e10-4920a8472dda)
