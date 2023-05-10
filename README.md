@@ -4,7 +4,7 @@
 
 * [1. Projeto MdLinks](#1-projeto-mdlinks)
 * [2. Backlog](#2-backlog)
-* [3. Utilização](#3-utilização)
+* [3. Utilização](#3-utilizacao)
 
 ***
 
