@@ -4,14 +4,7 @@
 
 * [1. Projeto MdLinks](#1-projeto-mdlinks)
 * [2. Backlog](#2-backlog)
-* [3. Objetivos de aprendizagem](#3-objetivos-de-aprendizagem)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-criterios-de-aceitação-mínimos-do-projeto)
-* [6. Entregáveis](#6-entregáveis)
-* [7. Hacker edition](#7-hacker-edition)
-* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
-* [10. Dividindo o problema - babies steps](#10-dividindo-o-problema)
+* [3. Utilização](#3-utilização)
 
 ***
 
@@ -34,3 +27,21 @@ de implementação de todas as partes do projeto.
 
 ![fluxograma](https://github.com/talitamsx/SAP009-md-links/assets/107422798/4421ec4e-6b81-42e0-be35-6259c3f57785)
 
+## 3. Utlização
+
+Comando :
+md-links ./"rota-do.arquivo"/"arquivo.md" (absoluta ou relativa)
+![md-links](https://github.com/talitamsx/SAP009-md-links/assets/107422798/9f17114a-491a-409f-a420-f45b1bf4d1d2)
+
+
+Comando: 
+md-links ./"rota-do.arquivo"/"arquivo.md" --validate
+![md-links-validate](https://github.com/talitamsx/SAP009-md-links/assets/107422798/a2ad6b35-74c6-4ff6-b068-d28fd59d7f94)
+
+Comando:
+md-links ./"rota-do.arquivo"/"arquivo.md" --stats
+![md-links-stats](https://github.com/talitamsx/SAP009-md-links/assets/107422798/82406918-8440-4ffe-a5a0-5ed38bba4804)
+
+Comando:
+md-links ./"rota-do.arquivo"/"arquivo.md" --stats --validate
+![md-links-stats-validate](https://github.com/talitamsx/SAP009-md-links/assets/107422798/dc15008e-d327-455f-9e10-4920a8472dda)
